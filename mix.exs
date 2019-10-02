@@ -4,7 +4,7 @@ defmodule KVstore.Mixfile do
   def project do
     [app: :kvstore,
      version: "0.1.0",
-     elixir: "~> 1.3",
+     elixir: "~> 1.8",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps()]
